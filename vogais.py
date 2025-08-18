@@ -23,7 +23,8 @@ while digito != "0":
 
     if vogal(digito):
         print(f" {digito} é uma vogal")
+        break
     else:
         print(f" {digito} é uma consoante")
-    
+        break
  

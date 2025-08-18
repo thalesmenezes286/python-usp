@@ -1,20 +1,14 @@
-def fatorial(numero):
+numero = int(input("Digite o valor de n: "))
 
-    if numero < 0:
-        return 0
-    elif numero == 0 or numero == 1:
-        return 1
-    else:   
-        
-        fatorial = 1
+if numero < 0:
+    print("0")
+elif numero == 0 or numero == 1:
+    print("1")
+else:   
 
-        for i in range(1, numero + 1):
-            fatorial = fatorial * i
-        return fatorial
+    fatorial = 1
+
+    for i in range(1, numero + 1):
+        fatorial = fatorial * i
     
-def numero_binomial(n, k):
-    
-    return fatorial(n) // (fatorial(k) * fatorial(n-k))
-
-#numero = int(input("Digite um número inteiro positivo: "))
-print(numero_binomial(5,3))
+    print(str(fatorial))
