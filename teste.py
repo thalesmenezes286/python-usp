@@ -1,7 +1,9 @@
-x = 1
-while x < 3:
-    y = 1
-    while y < 3:
-        print(x*y, end = "\t")
-        y = y + 1
-    x = x + 1
+carnes = ["picanha", "alcatra", "filé mignon", "cupim"]
+carnes2 = ["picanha", "alcatra", "filé mignon", "cupim", "ponta de alcatra"]
+if "ponta de alcatra" in carnes:
+    print("XXX")
+else:
+    if "ponta de alcatra" in carnes2:
+        print("YYY")
+    else:
+        print("ZZZ")
